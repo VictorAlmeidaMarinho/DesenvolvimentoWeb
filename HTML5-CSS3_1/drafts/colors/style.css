@@ -1,0 +1,30 @@
+.red{
+    color:red;
+}
+.blue{
+    color:blue;
+}
+.green{
+    color:green;
+}
+
+.a{
+    color:rgb(255, 100, 100);
+}
+.b{
+    color:rgba(255, 100, 100,0.5);
+}
+
+.c{
+    color:hsl(120,80%,50%);
+}
+.d{
+    color:#00f;
+}
+
+.e{
+    color:#00fe;
+}
+.f{
+    color:hsl(120,80%,50%,0.5);
+}

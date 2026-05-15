@@ -1,0 +1,10 @@
+/*seletor { declaração:valor; ...; }*/
+
+.titulo{
+    color: red; 
+    font-size: 30px;
+}
+.texto{
+    color: gray;
+    font-size: 16px;
+}

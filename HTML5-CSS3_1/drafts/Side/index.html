@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .bg-red {
+            color: white;
+            background-color: red;
+        }
+
+        .bg-blue {
+            color: white;
+            background-color: blue;
+        }
+
+        .float-element {
+            float: left;
+            width: 50%;
+        }
+
+        .padding {
+            padding: 10px;
+        }
+
+        .margin {
+            margin-top: 10px;
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Como colocamos elementos semânticos lado a lado?</h1>
+        <div class="margin">
+            <p>Tradicionalmente são colocados em <i>stack</i> vertical</p>
+        </div>
+    </header>
+
+    <article>
+        <div class="bg-red float-element">
+            <div class="padding">
+                <h3>
+                    Conteúdo do elemento um
+                </h3>
+            </div>
+        </div>
+
+        <div class="bg-blue float-element">
+            <div class="padding">
+                <h3>
+                    Conteúdo do elemento dois
+                </h3>
+            </div>
+        </div>
+    </article>
+
+</body>
+
+</html>

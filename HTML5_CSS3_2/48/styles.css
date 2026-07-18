@@ -1,0 +1,10 @@
+.container-header-infos {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.link-header-infos {
+    display:flex;
+    flex-direction: row;
+    gap: 32px;
+}
